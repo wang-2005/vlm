@@ -1,0 +1,16 @@
+build/
+install/
+log/
+**/__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+
+# Model checkpoints and local experiments are not part of the source release.
+*.pt
+*.pth
+*.safetensors
+VLM_project/
+YOLO + ROI + VLM 使用步骤
+src/vlm_1/test/
